@@ -4,5 +4,12 @@ setText("text", "En lugar de comprar botellas de agua desechables, usa una botel
 
 onEvent("englishButton","click",function(){
 setText("text", "Instead of buying disposable water bottles, use a refillable bottle. One use water bottles fill our landfills and trap valuable water.");
+});
 
+onEvent("plastic","click",function(){
+    document.getElementById("plastic").src="no.gif";
+})
+
+onEvent("glass","click", function(){
+    
 });
