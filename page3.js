@@ -7,7 +7,7 @@ onEvent("englishButton", "click", function () {
 });
 
 onEvent("plastic", "click", function () {
-    document.getElementById("plastic").src = "no.gif";
+    document.getElementById("plastic").src = "plastic-bottle-no.png";
 })
 
 onEvent("glass", "click", function () {
