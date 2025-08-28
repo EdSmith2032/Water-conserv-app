@@ -11,5 +11,6 @@ onEvent("plastic", "click", function () {
 })
 
 onEvent("glass", "click", function () {
-
-});
+    setImageURL("glass", "glass-bottle-B.png");
+    setImageURL("blank", "glass-bottle.png");
+})
